@@ -1,0 +1,524 @@
+/* -------------------- Media Query -------------------- */
+
+/* -------------------- Tablet -------------------- */
+
+@media screen and (max-width: 768px){
+
+    /* ---------- Navbar ---------- */
+
+    .modelNav {
+        display: none;
+    }
+
+    .mobNav {
+        display: none;
+    }
+
+    .Img-1 {
+        width: 30px;
+    }
+
+    .link li , a {
+        padding-left: 5px;
+    } 
+
+/* ---------- Navbar ---------- */
+
+
+/* ---------- Hero ---------- */
+
+    .hero {
+        height: 60vh;
+    }
+
+    .heroTxt {
+        width: 50%;
+        gap: 10px;
+    }
+
+    .Heading-1 {
+        font-size: 36px;
+        width: 290px;
+    }
+    
+    .Para-1 {
+        width: 290px;
+        font-size: 14px;
+    }
+    
+    
+    .heroImg {
+        width: 50%;
+    }
+    
+    .btn-2 {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .Img-2 {
+        width: 320px;
+    }
+
+    /* ---------- Hero ---------- */
+
+
+    /* ---------- First ---------- */
+
+    .first {
+        height: 60vh;
+    }
+
+    .firstImg {
+        width: 50%;
+    }
+
+    .Img-3 {
+        width: 200px;
+    }
+
+    .firstTxt {
+        width: 50%;
+    }
+
+    .Heading-2 {
+        font-size: medium;
+        margin: 10px 0 5px -40px;
+    }
+
+    .Heading-3 {
+        font-size: small;
+    }
+
+    .subHead {
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+
+    .Para-2 {
+        font-size: 7px;
+    }
+
+    /* ---------- First ---------- */
+
+
+    /* ---------- Second ---------- */
+
+    .second {
+        height: 60vh;
+    }
+
+    .Heading-4 {
+        margin-top: 150px;
+        font-size: 20px;
+        width: 280px;
+    }    
+
+    .card {
+        width: 150px;
+        height: 230px;
+        margin-top: 50px;
+    }
+
+    .cardText {
+        margin-top: -47px;   
+    }
+
+    .Heading-5 {
+        font-size: 16px;
+    }
+
+    .para-3 {
+        width: 100%;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+
+
+    /* ---------- Second ---------- */
+
+
+    /* ---------- Third ---------- */
+
+    .Third {
+        height: 60vh;
+    }
+
+    .Heading-6 {
+        padding-top: 105px;
+        font-size: 22px;
+    }
+
+    .toogle {
+        padding-top: 13px;
+    }
+
+    .one {
+        font-size: 14px;
+    }
+
+    .two {
+        font-size: 13px;
+    }
+
+    .pp1 {
+        width: 190px;
+        margin-top: -50px;
+    }
+
+    .para-4 {
+        width: 110px;
+        font-size: 10px;
+    }
+
+    .btn-3 {
+        width: 102px;
+        font-size: 8px;
+    }
+
+    /* ---------- Third ---------- */
+
+
+    /* ---------- Fourth ---------- */
+
+    .Heading-7 {
+        padding-top: 260px;
+        font-size: 22px;
+    }
+
+    .para-5 {
+        font-size: 12px;
+    }
+
+    .cCard {
+        width: 200px;
+    }
+
+    dd {
+        font-size: xx-small;
+        width: 181px;
+    }
+
+    /* ---------- Fourth ---------- */
+
+
+    /* ---------- Fifth ---------- */
+
+    .Fifth {
+        margin-top: -180px;
+    }
+
+    .Heading-8 {
+        font-size: 22px;
+        padding-top: 220px;
+    }
+
+    .one-one {
+        width: 300px;
+        height: 390px;
+    }
+
+    .Img-5 {
+        width: 300px;
+    }
+
+    .txt {
+        font-size: 10px;
+    }
+
+    .Heading-9 {
+        font-size: 12px;
+    }
+
+    .para-8 {
+        font-size: 12px;
+    }
+
+    .btn-4 {
+        width: 40%;
+    }
+
+    /* ---------- Fifth ---------- */
+
+
+    /* ---------- Sixth ---------- */
+
+    
+    
+    /* ---------- Sixth ---------- */
+}
+
+/* -------------------- Tablet -------------------- */
+
+
+/* -------------------- Mobile -------------------- */
+
+@media (min-width: 320px) and (max-width: 425px){
+
+    /* ---------- Mobile Navbar ---------- */
+
+    .modelNav {
+        display: none;
+        top: 53px;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        background-color: green;
+        width: 40%;
+        height: 84vh;
+        position: fixed;
+        color: white;
+    }
+
+    .modelLink li {
+        list-style: none;
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-width: 40%;
+    }
+
+    .modelLink li:hover {
+        background-color: aqua;
+        color: black;
+    }
+
+    .linktxt {
+        margin-top: 5px;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .mobNav {
+        display: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 35px 0 35px;
+    }
+
+    .Img-1 {
+        padding-top: 30px;
+    }
+
+    .Icoon {
+        padding-top: 30px;
+        color: white;
+    }
+    
+    /* ---------- Mobile Navbar ---------- */
+
+
+    /* ---------- Mobile Hero ---------- */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 580px;
+    }
+
+    .Heading-1 {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .Para-1 {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    .button {
+        padding-left: 10px;
+    }
+
+    .Img-2 {
+        width: 280px;
+        padding-top: 25px;
+        padding-left: 15px;
+    }
+
+    /* ---------- Mobile Hero ---------- */
+
+
+    /* ---------- Mobile First ---------- */
+
+    .first {
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Img-3 {
+        padding-top: 300px;
+    }
+
+    .Heading-2 {
+        font-size: 15px;
+        width: 300px;
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+
+    .subHead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .Para-2 {
+        width: 140px;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    /* ---------- Mobile First ---------- */
+
+
+    /* ---------- Mobile Second ---------- */
+
+    .second {
+        padding-top: 100px;
+    }
+
+    .second {
+        padding-top: 450px;
+    }
+
+    .Heading-4 {
+        padding-top: 870px;
+        width: 230px;
+        font-size: 17px;
+    }
+
+    .allCards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 200px;
+        height: 240px;
+    }
+
+    /* ---------- Mobile Second ---------- */
+
+
+    /* ---------- Mobile Third ---------- */
+
+    .Third {
+        padding-top: 990px;
+    }
+
+    .Heading-6 {
+        width: 270px;
+        font-size: 17px;
+        margin: 0 auto;
+    }
+
+    .pricePlan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 90px;
+    }
+
+    /* ---------- Mobile Third ---------- */
+
+
+    /* ---------- Mobile Fourth ---------- */
+
+    .fourth {
+        padding-top: 1050px;
+    }
+
+    .Heading-7 {
+       font-size: 18px; 
+    }
+
+    .para-5 {
+        font-size: 10px;
+    }
+
+    .review {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* ---------- Mobile Fourth ---------- */
+
+
+    /* ---------- Mobile Fifth ---------- */
+
+    .Fifth {
+        margin-top: -220px;
+    }
+
+    .imgCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Img-5 {
+        width: 250px;
+    }
+
+    .one-one {
+        width: 250px;
+        height: 403px;
+    }
+    
+    .sLast {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt {
+        font-size: 9px;
+    }
+
+    /* ---------- Mobile Fifth ---------- */
+
+
+    /* ---------- Mobile Sixth ---------- */
+
+    .Sixth {
+        margin-top: -60px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        padding-left: 50px;
+        gap: 20px;
+    }
+
+    .Heading-11 {
+        font-size: 10px;
+    }
+
+    /* ---------- Mobile Sixth ---------- */
+}
+/* -------------------- Mobile -------------------- */
+
+/* -------------------- Media Query -------------------- */
