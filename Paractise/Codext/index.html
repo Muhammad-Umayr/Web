@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="./Styles/animate.css">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -17,13 +19,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <title>Codext</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./reponsive.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/reponsive.css">
 </head>
 
 <body>
 
     <div class="modelNav">
+        <div class="modelBtn">
+            <button class="cross"><i class="fa-solid fa-xmark crossBtn"></i></button>
+        </div>
         <div class="modelLink">
             <nav>
                 <li class="linktxt"><a href="">Home</a></li>
@@ -31,7 +36,7 @@
                 <li class="linktxt"><a href="">Pricing</a></li>
                 <li class="linktxt"><a href="">Testimonials</a></li>
                 <li class="linktxt"><a href="">Blog</a></li>
-                <li class="linktxt"><button class="btn-1">Free Trail</button></li>
+                <li class="linktxt"><button class="btn-1" id="modalBtn">Free Trail</button></li>
             </nav>
         </div>
     </div>
@@ -42,14 +47,14 @@
                 <img class="Img-1" src="./Assets/logo1.png" alt="Logo">
             </div>
             <div class="mobIcon">
-                <i class="fa-solid fa-bars Icoon"></i>
+                <i id="iconClick" class="fa-solid fa-bars"></i>
             </div>
         </div>
         <div class="nav">
-            <div class="logo">
+            <div class="logo animate__animated animate__backInLeft">
                 <img class="Img-1" src="./Assets/logo1.png" alt="Logo">
             </div>
-            <div class="link">
+            <div class="link animate__animated animate__backInRight">
                 <nav>
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
@@ -62,7 +67,7 @@
         </div>
 
         <div class="hero">
-            <div class="heroTxt">
+            <div class="heroTxt animate__animated animate__slideInLeft">
                 <div class="head">
                     <h1 class="Heading-1">Codext one of the best system in SAAS</h1>
                 </div>
@@ -74,7 +79,7 @@
                     <button class="btn-2">Try a Live Demo</button>
                 </div>
             </div>
-            <div class="heroImg">
+            <div class="heroImg animate__animated animate__slideInRight">
                 <img class="Img-2" src="./Assets/hero img.png" alt="">
             </div>
         </div>
@@ -82,43 +87,47 @@
 
 
     <div class="first">
-        <div class="firstImg">
+        <div class="firstImg animate__animated animate__slideInLeft wow">
             <img class="Img-3" src="./Assets/first.png" alt="">
         </div>
         <div class="firstTxt">
-            <div class="head-2">
-                <h2 class="Heading-2">It's helpful for Operating System</h2>
-            </div>
-            <div class="subHead">
-                <div class="icon">
-                    <i class="fa-solid fa-share icon-1"></i>
-                </div>
-                <div class="text">
-                    <h3 class="Heading-3">Ultra Fast & Secure</h3>
-                    <p class="Para-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
-                        incidunt.</p>
+            <div class="firstTxt_1">
+                <div class="head-2 animate__animated animate__bounceInUp wow">
+                    <h2 class="Heading-2">It's helpful for Operating System</h2>
                 </div>
             </div>
+            <div class="firstTxt_2 animate__animated animate__slideInRight wow">
+                <div class="subHead">
+                    <div class="icon">
+                        <i class="fa-solid fa-share icon-1"></i>
+                    </div>
+                    <div class="text">
+                        <h3 class="Heading-3">Ultra Fast & Secure</h3>
+                        <p class="Para-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
+                            incidunt.</p>
+                    </div>
+                </div>
 
-            <div class="subHead">
-                <div class="icon">
-                    <i class="fa-solid fa-share icon-2"></i>
+                <div class="subHead">
+                    <div class="icon">
+                        <i class="fa-solid fa-share icon-2"></i>
+                    </div>
+                    <div class="text">
+                        <h3 class="Heading-3">Allow Customization</h3>
+                        <p class="Para-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
+                            incidunt.</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <h3 class="Heading-3">Allow Customization</h3>
-                    <p class="Para-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
-                        incidunt.</p>
-                </div>
-            </div>
 
-            <div class="subHead">
-                <div class="icon">
-                    <i class="fa-solid fa-share icon-3"></i>
-                </div>
-                <div class="text">
-                    <h3 class="Heading-3">Secure Contract</h3>
-                    <p class="Para-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
-                        incidunt.</p>
+                <div class="subHead">
+                    <div class="icon">
+                        <i class="fa-solid fa-share icon-3"></i>
+                    </div>
+                    <div class="text">
+                        <h3 class="Heading-3">Secure Contract</h3>
+                        <p class="Para-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
+                            incidunt.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,11 +135,11 @@
 
 
     <div class="second">
-        <div class="head-3">
+        <div class="head-3 animate__animated animate__bounceInUp wow">
             <h2 class="Heading-4">We Provides Best Features For Customers</h2>
         </div>
         <div class="allCards">
-            <div class="card">
+            <div class="card animate__animated animate__slideInLeft animate__delay-4s wow">
                 <div class="cardImg">
                     <i class="fa-solid fa-laptop-code fa-2x icon-4"></i>
                 </div>
@@ -141,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card animate__animated animate__slideInLeft animate__delay-3s wow">
                 <div class="cardImg">
                     <i class="fa-solid fa-chart-line fa-2x icon-5"></i>
                     <!-- <i class="fa-solid fa-laptop-code"></i> -->
@@ -153,7 +162,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card animate__animated animate__slideInLeft animate__delay-2s wow">
                 <div class="cardImg">
                     <i class="fa-regular fa-folder-open fa-2x icon-6"></i>
                     <!-- <i class="fa-solid fa-laptop-code"></i> -->
@@ -165,7 +174,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card animate__animated animate__slideInLeft animate__delay-1s wow">
                 <div class="cardImg">
                     <i class="fa-solid fa-rotate-right fa-2x icon-7"></i>
                     <!-- <i class="fa-solid fa-laptop-code"></i> -->
@@ -181,21 +190,21 @@
 
 
     <div class="Third">
-        <div class="head-4">
+        <div class="head-4 animate__animated animate__bounceInUp wow">
             <h2 class="Heading-6">Choose Your Best Pricing Plan</h2>
         </div>
         <div class="toogle">
-            <div class="one">Added for Monthly</div>
+            <div id="leftToggle" class="one animate__animated animate__backInLeft wow">Added for Monthly</div>
             <div class="box">
-                <div class="slide"></div>
+                <div id="slideBtn animate__animated animate__bounceInUp wow"></div>
             </div>
-            <div class="two">Yearly</div>
+            <div id="rightToggle" class="two animate__animated animate__backInRight wow">Yearly</div>
         </div>
-        <div class="pricePlan">
-            <div class="pp1">
+        <div class="pricePlan ">
+            <div class="pp1 animate__animated animate__backInRight animate__delay-3s wow">
                 <div class="one-1">Start Up</div>
                 <div class="divider"></div>
-                <div class="two-1">$10 / mo</div>
+                <div class="two-1 st">$10 / m</div>
                 <div class="Text">
                     <p class="para-4">Easy Customizable</p>
                     <p class="para-4">Commercial Licence</p>
@@ -207,10 +216,10 @@
                 </div>
             </div>
 
-            <div class="pp1">
+            <div class="pp1 Classics animate__animated animate__backInRight animate__delay-2s wow">
                 <div class="one-1">Classic</div>
                 <div class="divider"></div>
-                <div class="two-1">$30 / mo</div>
+                <div class="two-1 cl">$30 / m</div>
                 <div class="Text">
                     <p class="para-4">Easy Customizable</p>
                     <p class="para-4">Commercial Licence</p>
@@ -222,10 +231,10 @@
                 </div>
             </div>
 
-            <div class="pp1">
+            <div class="pp1 animate__animated animate__backInRight animate__delay-1s wow">
                 <div class="one-1">Premium</div>
                 <div class="divider"></div>
-                <div class="two-1">$49 / mo</div>
+                <div class="two-1 pr">$49 / m</div>
                 <div class="Text">
                     <p class="para-4">Easy Customizable</p>
                     <p class="para-4">Commercial Licence</p>
@@ -242,12 +251,12 @@
 
     <div class="fourth">
         <div class="head-5">
-            <h2 class="Heading-7">Let See Our User's Review</h2>
-            <p class="para-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            <h2 class="Heading-7 animate__animated animate__bounceInUp wow">Let See Our User's Review</h2>
+            <p class="para-5 animate__animated animate__slideInLeft wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                 has been the industry's standard dummy text ever since the 1500's</p>
         </div>
         <div class="review">
-            <div class="cCard">
+            <div class="cCard animate__animated animate__backInLeft animate__delay-3s wow">
                 <dl>
                     <dt><i class="fa-solid fa-quote-left icon-8 fa-2x"></i></dt>
                     <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -264,7 +273,7 @@
                 </div>
             </div>
 
-            <div class="cCard">
+            <div class="cCard animate__animated animate__backInLeft animate__delay-2s wow">
                 <dl>
                     <dt><i class="fa-solid fa-quote-left icon-8 fa-2x"></i></dt>
                     <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -281,7 +290,7 @@
                 </div>
             </div>
 
-            <div class="cCard">
+            <div class="cCard animate__animated animate__backInLeft animate__delay-1s wow">
                 <dl>
                     <dt><i class="fa-solid fa-quote-left icon-8 fa-2x"></i></dt>
                     <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -298,7 +307,7 @@
                 </div>
             </div>
         </div>
-        <div class="box-1">
+        <div class="box-1 animate__animated animate__backInRight wow">
             <div class="one-2 one-3"></div>
             <div class="one-2"></div>
             <div class="one-2"></div>
@@ -308,47 +317,47 @@
 
     <div class="Fifth">
         <div class="head-6">
-            <h2 class="Heading-8">Latest Insights News</h2>
+            <h2 class="Heading-8 animate__animated animate__bounceInUp wow">Latest Insights News</h2>
             <div class="imgCard">
-                <div class="one-one">
+                <div class="one-one animate__animated animate__slideInLeft animate__delay-2s wow">
                     <div class="two-2">
                         <img class="Img-5" src="./Assets/R.jpeg" alt="group of people">
                     </div>
                     <div class="sLast">
                         <div class="two-3">
-                            <div class="txt">Our Creative Team</div>
-                            <div class="txt">6/13/2023</div>
-                            <div class="txt">by Someone</div>
+                            <div class="txt animate__animated animate__slideInRight animate__delay-3s wow">Our Creative Team</div>
+                            <div class="txt animate__animated animate__slideInRight animate__delay-2s wow">6/13/2023</div>
+                            <div class="txt animate__animated animate__slideInRight animate__delay-1s wow">by Someone</div>
                         </div>
                         <div class="fSubHead">
-                            <h5 class="Heading-9">Lorem Ipsum is simply dummy text</h5>
+                            <h5 class="Heading-9 animate__animated animate__bounceInUp wow">Lorem Ipsum is simply dummy text</h5>
                         </div>
                         <div class="fSubPara">
-                            <p class="para-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p class="para-8 animate__animated animate__backInLeft wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text</p>
                         </div>
-                        <div class="fifthBtn"><button class="btn-4">Continue</button></div>
+                        <div class="fifthBtn"><button class="btn-4 animate__animated animate__backInLeft wow">Continue</button></div>
                     </div>
                 </div>
 
-                <div class="one-one">
+                <div class="one-one animate__animated animate__slideInLeft animate__delay-1s wow">
                     <div class="two-2">
                         <img class="Img-5" src="./Assets/OIP.jpeg" alt="group of people">
                     </div>
                     <div class="sLast">
                         <div class="two-3">
-                            <div class="txt">Create Presentations</div>
-                            <div class="txt">6/13/2023</div>
-                            <div class="txt">by Someone</div>
+                            <div class="txt animate__animated animate__slideInLeft animate__delay-3s wow">Create Presentations</div>
+                            <div class="txt animate__animated animate__slideInLeft animate__delay-2s wow">6/13/2023</div>
+                            <div class="txt animate__animated animate__slideInLeft animate__delay-1s wow">by Someone</div>
                         </div>
                         <div class="fSubHead">
-                            <h5 class="Heading-9">Lorem Ipsum is simply dummy text</h5>
+                            <h5 class="Heading-9 animate__animated animate__bounceInUp wow">Lorem Ipsum is simply dummy text</h5>
                         </div>
                         <div class="fSubPara">
-                            <p class="para-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p class="para-8 animate__animated animate__backInRight wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text</p>
                         </div>
-                        <div class="fifthBtn"><button class="btn-4">Continue</button></div>
+                        <div class="fifthBtn"><button class="btn-4 animate__animated animate__backInRight wow">Continue</button></div>
                     </div>
                 </div>
 
@@ -417,7 +426,11 @@
         </div>
         <h5 class="Heading-11">Copyright 2021 The Codext All Rights Reserved . </h5>
     </div>
-    <script src="./script.js"></script>
+    <script src="./JavaScript/script.js"></script>
+    <script src="./JavaScript/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

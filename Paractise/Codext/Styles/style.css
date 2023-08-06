@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import 'animate.css';
 
 * {
     padding: 0;
@@ -60,6 +61,7 @@
 .hero {
     display: flex;
     padding-bottom: 50px;
+    height: 90vh;
 }
 
 .heroTxt {
@@ -73,15 +75,15 @@
 }
 
 .Heading-1 {
-    font-size: 39px;
+    font-size: 47px;
     color: white;
-    width: 340px;
+    width: 380px;
 }
 
 .Para-1 {
     color: white;
-    font-size: small;
-    width: 340px;
+    font-size: 17px;
+    width: 380px;
 }
 
 .heroImg {
@@ -92,18 +94,18 @@
 }
 
 .btn-2 {
-    width: 200px;
-    height: 35px;
+    width: 175px;
+    height: 37px;
     border: none;
     outline: none;
     border-radius: 3px;
     background-color: rgb(55, 175, 223);
     color: whitesmoke;
-    margin-left: -135px;
+    margin-left: -190px;
 }
 
 .Img-2 {
-    width: 450px;
+    width: 520px;
     padding-right: 30px;
 }
 
@@ -113,6 +115,7 @@
 /* ------------------ First Section Start ------------------ */
 
 .first {
+    height: 100vh;
     background-color: white;
     display: flex;
     padding-top: 100px;
@@ -188,7 +191,7 @@
 
 .allCards {
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .card {
@@ -208,30 +211,34 @@
 }
 
 .icon-4 {
+    font-size: 60px;
+    padding: 25px;
     color: #e2b3b3;
     background-color: whitesmoke;
-    padding: 20px;
     border-radius: 50px;
 }
 
 .icon-5 {
+    font-size: 60px;
+    padding: 25px;
     color: #a97a36;
     background-color: whitesmoke;
-    padding: 20px;
     border-radius: 50px;
 }
 
 .icon-6 {
+    font-size: 60px;
+    padding: 25px;
     color: #a7cdcb;
     background-color: whitesmoke;
-    padding: 20px;
     border-radius: 50px;
 }
 
 .icon-7 {
+    font-size: 60px;
+    padding: 25px;
     color: #cc5edf;
     background-color: whitesmoke;
-    padding: 20px;
     border-radius: 50px;
 }
 
@@ -239,6 +246,7 @@
     padding: 20px 20px;
     height: 50%;
     width: 100%;
+    margin-top: -35px;
 }
 
 .cardText:hover {
@@ -251,12 +259,14 @@
     text-align: center;
     padding-bottom: 10px;
     font-size: 25px;
+    /* margin-top: -30px; */
 }
 
 .para-3 {
     font-size: 10px;
     text-align: center;
     width: 200px;
+    /* margin-top: -35px; */
 }
 
 /* ------------------ Second Section End ------------------ */
@@ -286,17 +296,22 @@
 }
 
 .box {
+    padding: 2px;
     width: 30px;
     height: 15px;
     background-color: #cdeaf7;
     border-radius: 50px;
 }
 
-.slide {
+#slideBtn {
     width: 50%;
-    height: 15px;
+    height: 100%;
     background-color: #42b4ee;
     border-radius: 50px;
+}
+
+.slide1 {
+    margin-left: auto;
 }
 
 .two {
@@ -312,7 +327,7 @@
 }
 
 .pp1 {
-    width: 320px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -321,6 +336,16 @@
     padding: 20px;
     cursor: pointer;
     height: 320px;
+}
+
+.Classics {
+    background-color: #551ba9;
+    color: white;
+}
+
+.Classics:hover {
+    background-color: white;
+    color: black;
 }
 
 .pp1:hover {
@@ -359,6 +384,7 @@
 .para-4 {
     font-size: 16px;
     line-height: 35px;
+    color: #babdbe;
     
 }
 
@@ -367,6 +393,8 @@
 }
 
 .btn-3 {
+    color: #42b4ee;
+    background-color: whitesmoke;
     text-transform: uppercase;
     width: 200px;
     font-size: 15px;
@@ -374,6 +402,11 @@
     border: none;
     outline: none;
     border-radius: 4px;
+}
+
+.btn-3:hover {
+    background-color: #42b4ee;
+    color: whitesmoke;
 }
 
 /* ------------------ Third Section End ------------------ */
@@ -403,12 +436,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     margin-top: 70px;
 }
 
 .cCard {
-    width: 330px;
+    width: 350px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
     border-radius: 5px;
     height: 220px;
@@ -492,12 +525,12 @@ dd {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .one-one {
-    width: 450px;
-    height: 505px;
+    width: 530px;
+    height: 560px;
     display: flex;
     flex-direction: column;
     background-color: #f9f9f9;
@@ -506,7 +539,7 @@ dd {
 }
 
 .Img-5 {
-    width: 450px;
+    width: 530px;
     border-radius: 10px 10px 0 0;
 }
 
